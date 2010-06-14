@@ -1,0 +1,18 @@
+DEMO-----------------------------
+Most NLTK modules include demonstration code. Here are some examples involving tokenizing, stemming, and tagging:
+
+>>> import nltk
+>>> nltk.stem.porter.demo()
+>>> nltk.stem.lancaster.demo()
+>>> nltk.probability.demo()
+
+Here are some more examples, involving parsing and semantic interpretation:
+
+>>> import nltk
+>>> nltk.chunk.regexp.demo()
+>>> nltk.parse.chart.demo()
+>>> nltk.sem.evaluate.demo()
+>>> nltk.sem.logic.demo()
+
+
+

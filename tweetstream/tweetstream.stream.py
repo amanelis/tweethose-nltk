@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import tweetstream
 
 stream = tweetstream.TweetStream("zandermane", "alex18257")
