@@ -27,5 +27,5 @@ class SampleConsumer extends Phirehose {
 	}
 }
 
-$sc = new SampleConsumer('zandermane', 'alex18257', Phirehose::METHOD_SAMPLE);
+$sc = new SampleConsumer('username', 'password', Phirehose::METHOD_SAMPLE);
 $sc->consume();
