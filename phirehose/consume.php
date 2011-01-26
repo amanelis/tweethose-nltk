@@ -9,7 +9,7 @@ class MyStream extends Phirehose
   }
 }
 
-$stream = new MyStream('zandermane', 'alex18257');
+$stream = new MyStream('username', 'password');
 $stream->consume();
 
 
