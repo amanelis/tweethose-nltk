@@ -3,7 +3,7 @@ import tweetstream
 import time
 
 words = ["tea"]
-stream = tweetstream.TrackStream("zandermane", "alex18257", words)
+stream = tweetstream.TrackStream("username", "password", words)
 
 time.sleep(1)
 print "Waiting for tweets.."
