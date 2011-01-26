@@ -1,8 +1,11 @@
 import tweetstream
 
-stream = tweetstream.TweetStream("zandermane", "alex18257")
+global_stream = tweetstream.TweetStream("zandermane", "alex18257")
 
-for tweet in stream:
+for tweet in global_stream:
 	if tweet.has_key("text"):
-		print tweet['user']['screen_name'] + ": " + tweet['text'], "\n"
-		print "----" * 4
+		print "----" * 4 + "->"
+		print tweet['user']['screen_name']
+		print tweet['user']['location']
+		print tweet['text']
+		print "----" * 4 + "\n"
