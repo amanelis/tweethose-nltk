@@ -1,6 +1,6 @@
 import tweetstream
 
-global_stream = tweetstream.TweetStream("zandermane", "alex18257")
+global_stream = tweetstream.TweetStream("username", "password")
 
 for tweet in global_stream:
 	if tweet.has_key("text"):
